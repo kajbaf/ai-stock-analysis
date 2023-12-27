@@ -1,20 +1,22 @@
 # Very Basic Data Engineering for Stock Market Pricess
-In this course we will try to get market data programmatically.
+Welcome back to our journey into the world of data engineering with a focus on the stock market. Building on the fundamentals we discussed in the introductory Session 0, this session aims to get actually involved with a practical project of data engineering to programatically fetch and analyze financial market data.
 
-Why?
+## What is Data Extraction:
+Automating the retrieval of data from external sources, known as data extraction, is a crucial and sometimes challenging initial step in data engineering. This process involves collecting data from diverse sources, a critical task for accumulating the substantial information necessary for data analysis, particularly in financial contexts. Mastering programmatic data extraction empowers us to efficiently handle and analyze large datasets. Consequently, this enables more frequent monitoring of a broader array of stock tickers, leading to more precise and insightful decision-making in trading.
 
-Because financial market analysis requires a lot of time for processing huge amount of data for each type of financial contract (stock ticker). Going through different data sources and performing analysis again and again would be confusing and cumbersome. If we do it programmatically, we would be able to automate our practices, repeat them and improve them as we see fit.
+### What We Need
+A Python interpreter installed on your machine.
+  * Most of you might already have Python installed.
+  * For those who haven't, please visit the [Python website](python.org) for installation instructions.
+  * MacOS and Linux typically come with Python pre-installed.
+* Python libraries specific to this session:
+  * `yfinance`: This library allows us to access Yahoo Finance's stock market data, for free!
+  * `pandas`: A powerful tool for data processing, offering functionalities similar to a programmable version of MS Excel.
 
-## What We Need
-* We need an installed Python interpreter.
-  * We assume you have already installed Python.
-  * If not, you can proceed to the [Python website](python.org) and download it.
-  * In Mac OS and Linux you usually have an installed version of Python.
-* Installing Python libraries. In each session, we will install only the required Python libraries for that session.
-  * `yfinance`: It is a free Python library to access stock maerket data from yahoo Finance! It uses the free available Yahoo! APIs.
-  * `pandas`: It is a free Python library for data processing, much like a very programmable MS Excel.
-
-## What We Achieve
-* We will download all the data in a folder `data`, and then we can perform all kind of analysis on them.
-* We can intorduce our list of favorite stock market indices or tickers and update it at the beginning of our script, and run the script daily to receive more up-to-date data.
-* We can open saved CSV files in data-analytic tools, or even Excel!
+### Our Goals
+  * **Data Extraction:** Develop a simple code to programmatically download and save stock ticker data in a local folder for analysis.
+  * **Data Management:** Set up a system to organize data so you can efficiently access this data and keep them up to date.
+  * **Data Analysis**: Explore the power of Python and Excel in reading and analyzing our downloaded CSV files.
+  * **Create a Personalized Stock Portfolio**: Learn to track a selected set of stock tickers, effectively creating and managing your first stock portfolio.
+  * **Monitoring Stock Baskets**: Develop a new code to programmatically extract, analyze, and update ticker data for all stocks in a mutual fund or ETF.
+  

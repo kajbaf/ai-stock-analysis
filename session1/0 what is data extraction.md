@@ -12,6 +12,8 @@ Automating data retrieval from external sources, known as data extraction, is a 
   * `yfinance`: This library allows us to read stock market data from Yahoo Finance for free!
   * `pandas`: A powerful tool for data processing, offering functionalities similar to a programmable version of MS Excel.
 
+--- how to set up system
+
 ### Our Goals
   * **Data Extraction:** Develop a simple code to programmatically download and save stock ticker data in a local folder for analysis.
   * **Data Management:** Set up a system to organize data so you can efficiently access this data and keep it up to date.

@@ -45,10 +45,7 @@ It will create and update several CSV files in the same `data` folder.
 
 To keep your data files updated, you can run the script daily. You can open these files in Excel and perform all kinds of analyses that we performed in session 0.
 
-## 2. Extract Stocks in an ETF
-- [session1/extract_stock_find.py] (extract_stock_find.py)
+## Analyze Data in MS Excel
+In this exercise, we'll manually analyze downloaded stock data in Excel. Here I want to analyze the changes in the price of the 'NFLX' stock ticker (Netflix). After downloading the CSV file, which includes daily data like open, high, low, close, adjusted close prices, and transaction volume, we'll convert it into an Excel file for ease of use.
 
-  * **Data Management: ** Set up a system to organize data so you can efficiently access this data and keep it up to date.
-  * **Data Analysis**: Explore the power of Python and Excel in reading and analyzing our downloaded CSV files.
-  * **Create a Personalized Stock Portfolio**: Learn to track a selected set of stock tickers, effectively creating and managing your first stock portfolio.
-  * **Monitoring Stock Baskets**: Develop a new code to programmatically extract, analyze, and update ticker data for all mutual fund stocks or ETF stocks.
+To visualize the data, we create a line chart by selecting the 'Date' and 'Close' columns and using the 'Insert Chart' from the 'Insert' tab. The initial view of the chart may appear compressed, so to focus on recent trends, right-click the Date axis and adjust the minimum value to '2023-01-01'. This adjustment highlights Netflix's substantial share price increase from the start of 2023, rising from below $300 to slightly under $500. For a more detailed view of price fluctuations, right-click the Y-axis (closing price axis) and set the range between $250 and $500. This offers a more distinct visualization of the stock's recent performance.

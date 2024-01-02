@@ -2,13 +2,13 @@
 A simple script to download historical prices of your desired stock using Yahoo Finance API.
 """
 # Import Yahoo Finance API
-import yfinance as y
+import yfinance as yf
 
 # Define the desired stock ticker
 stock_ticker = 'MSFT'
 
 # Download the historical price data for the specified stock ticker, on daily intervals
-dataframe = y.download(tickers=stock_ticker, interval='1d')
+dataframe = yf.download(tickers=stock_ticker, interval='1d')
 
 # Verify if the data for the specified stock ticker is retrieved
 if not dataframe.empty:
